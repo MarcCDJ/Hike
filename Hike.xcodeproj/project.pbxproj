@@ -10,6 +10,7 @@
 		8688A9722A97B4F7007421AE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9712A97B4F7007421AE /* CardView.swift */; };
 		8688A9752A97B6DC007421AE /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */; };
 		8688A9782A97BC6D007421AE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9772A97BC6D007421AE /* ColorExtension.swift */; };
+		86B061C82A995F1100F4875C /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B061C72A995F1100F4875C /* CustomButtonView.swift */; };
 		86CCDEEC2A967A5000C1BE2C /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCDEEB2A967A5000C1BE2C /* HikeApp.swift */; };
 		86CCDEEE2A967A5000C1BE2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CCDEED2A967A5000C1BE2C /* ContentView.swift */; };
 		86CCDEF02A967A5100C1BE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CCDEEF2A967A5100C1BE2C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		8688A9712A97B4F7007421AE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		8688A9772A97BC6D007421AE /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		86B061C72A995F1100F4875C /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		86CCDEE82A967A5000C1BE2C /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CCDEEB2A967A5000C1BE2C /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		86CCDEED2A967A5000C1BE2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			children = (
 				8688A9712A97B4F7007421AE /* CardView.swift */,
 				8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */,
+				86B061C72A995F1100F4875C /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -74,10 +77,10 @@
 		86CCDEEA2A967A5000C1BE2C /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				8688A9732A97B6A2007421AE /* Component */,
 				8688A9762A97BC40007421AE /* Utility */,
 				86CCDEEB2A967A5000C1BE2C /* HikeApp.swift */,
 				86CCDEED2A967A5000C1BE2C /* ContentView.swift */,
-				8688A9732A97B6A2007421AE /* Component */,
 				86CCDEEF2A967A5100C1BE2C /* Assets.xcassets */,
 				86CCDEF12A967A5100C1BE2C /* Preview Content */,
 			);
@@ -120,7 +123,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					86CCDEE72A967A5000C1BE2C = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -165,6 +168,7 @@
 				86CCDEEE2A967A5000C1BE2C /* ContentView.swift in Sources */,
 				8688A9722A97B4F7007421AE /* CardView.swift in Sources */,
 				86CCDEEC2A967A5000C1BE2C /* HikeApp.swift in Sources */,
+				86B061C82A995F1100F4875C /* CustomButtonView.swift in Sources */,
 				8688A9752A97B6DC007421AE /* CustomBackgroundView.swift in Sources */,
 				8688A9782A97BC6D007421AE /* ColorExtension.swift in Sources */,
 			);
@@ -209,6 +213,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -269,6 +274,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
