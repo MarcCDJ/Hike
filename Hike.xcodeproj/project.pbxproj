@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864F90232A9FC0F6004209F8 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F90222A9FC0F6004209F8 /* CustomCircleView.swift */; };
+		864F90252A9FD13E004209F8 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F90242A9FD13E004209F8 /* MotionAnimationView.swift */; };
 		8688A9722A97B4F7007421AE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9712A97B4F7007421AE /* CardView.swift */; };
 		8688A9752A97B6DC007421AE /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */; };
 		8688A9782A97BC6D007421AE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688A9772A97BC6D007421AE /* ColorExtension.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864F90222A9FC0F6004209F8 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		864F90242A9FD13E004209F8 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		8688A9712A97B4F7007421AE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		8688A9772A97BC6D007421AE /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 				8688A9712A97B4F7007421AE /* CardView.swift */,
 				8688A9742A97B6DC007421AE /* CustomBackgroundView.swift */,
 				86B061C72A995F1100F4875C /* CustomButtonView.swift */,
+				864F90222A9FC0F6004209F8 /* CustomCircleView.swift */,
+				864F90242A9FD13E004209F8 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -170,9 +176,11 @@
 			files = (
 				86CCDEEE2A967A5000C1BE2C /* ContentView.swift in Sources */,
 				8688A9722A97B4F7007421AE /* CardView.swift in Sources */,
+				864F90232A9FC0F6004209F8 /* CustomCircleView.swift in Sources */,
 				86CCDEEC2A967A5000C1BE2C /* HikeApp.swift in Sources */,
 				86B061C82A995F1100F4875C /* CustomButtonView.swift in Sources */,
 				86ADBD952A9E4E17002BEAD3 /* GradientButtonStyle.swift in Sources */,
+				864F90252A9FD13E004209F8 /* MotionAnimationView.swift in Sources */,
 				8688A9752A97B6DC007421AE /* CustomBackgroundView.swift in Sources */,
 				8688A9782A97BC6D007421AE /* ColorExtension.swift in Sources */,
 			);
